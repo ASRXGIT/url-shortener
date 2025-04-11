@@ -1,7 +1,7 @@
 # Navigate to the client folder
 cd client
 
-# Install client dependencies
+# Install client dependency
 npm install
 
 # Return to the root folder
