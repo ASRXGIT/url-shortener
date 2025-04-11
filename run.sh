@@ -4,6 +4,6 @@
 cd client
 npm start &
 
-# Run start command for the server folder
+# Run start command for server folder
 cd ../server
 npm run dev &
