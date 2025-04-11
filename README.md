@@ -16,11 +16,7 @@ A modern and responsive full-stack web application to shorten URLs, track clicks
 
 ---
 
-## 📸 Screenshots
 
-![screenshot](https://user-images.githubusercontent.com/your-screenshot-link.jpg)
-
----
 
 ## 🛠 Tech Stack
 
