@@ -9,6 +9,8 @@ export default function UrlList(props) {
                     <div className="links">
                         <a href={element.url} className="full-url"> {element.url.slice(0,100)}</a>
                         <a href={element.shortUrl} className="short-url font-medium"> {element.shortUrl}</a>
+                        <p className="text-sm text-gray-500">Clicks: {element.clicks ?? 0}</p>
+
                     </div>
                     <button type="button" className="btn-cta btn-copy" onClick={() =>  navigator.clipboard.writeText(element.shortUrl)}>Copy</button>
                 </li>
